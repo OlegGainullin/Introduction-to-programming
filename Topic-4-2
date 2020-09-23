@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main(){
+    char *locale = setlocale(LC_ALL, "");
+    float d = 0;
+    printf("Введите диаметр d: ");
+    scanf("%e", &d);
+    float l = d*3.14;
+    printf("Длина окружности = %g \n", l);
+    return 0;
+}
