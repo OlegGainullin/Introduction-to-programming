@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <locale.h>
+#include <stdlib.h>
+int main(){
+    char *locale = setlocale(LC_ALL, "");
+    float a = 0;
+    float b = 0;
+    printf("Введите a: ");
+    scanf("%e", &a);
+    printf("Введите b: ");
+    scanf("%e", &b);
+    a = abs(a);
+    b = abs(b);
+    printf("Сумма модулей = %g \n", a+b);
+    printf("Разность модулей = %g \n", a-b);
+    printf("Произведение модулей = %g \n", a*b);
+    printf("Частное модулей = %g \n", a/b);
+    return 0;
+}
