@@ -5,13 +5,13 @@ int main(){
     char *locale = setlocale(LC_ALL, "");
     float a = 0;
     float b = 0;
-    printf("Введите сторону a: ");
+    printf("Г‚ГўГҐГ¤ГЁГІГҐ Г±ГІГ®Г°Г®Г­Гі a: ");
     scanf("%e", &a);
-    printf("Введите сторону b: ");
+    printf("Г‚ГўГҐГ¤ГЁГІГҐ Г±ГІГ®Г°Г®Г­Гі b: ");
     scanf("%e", &b);
     float s = a*b;
     float p = 2*(a+b);
-    printf("Площадь = %g \n", s);
-    printf("Периметр = %g \n", p);
+    printf("ГЏГ«Г®Г№Г Г¤Гј = %g \n", s);
+    printf("ГЏГҐГ°ГЁГ¬ГҐГІГ° = %g \n", p);
     return 0;
 }
