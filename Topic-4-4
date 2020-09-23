@@ -9,8 +9,8 @@ int main(){
     scanf("%e", &a);
     printf("Введите b: ");
     scanf("%e", &b);
-    printf("Сумма = %g \n", a+b);
-    printf("Разность = %g \n", a-b);
+    printf("Сумма квадратов = %g \n", a*a+b*b);
+    printf("Разность квадратов = %g \n", a*a-b*b);
     printf("Произведение квадратов = %g \n", a*a*b*b);
     printf("Частное квадратов = %g \n", (a*a)/(b*b));
     return 0;
